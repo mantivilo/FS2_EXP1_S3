@@ -27,10 +27,46 @@ body {
     margin-left: 20px;
 }
 
+.footer {
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
+
+.footer h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
 .dropdown-menu {
     min-width: 10rem;
 }
 
 .dropdown-item:hover {
     background-color: #f8f9fa;
+}
+
+.is-valid {
+    border-color: #28a745;
+}
+
+.is-invalid {
+    border-color: #dc3545;
 }
