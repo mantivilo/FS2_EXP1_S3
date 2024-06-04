@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liga Chilena</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">La Camiseta Store</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="categoriesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Categorias
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="categoriesDropdown">
+                        <li><a class="dropdown-item" href="ligachilena.html">Liga Chilena</a></li>
+                        <li><a class="dropdown-item" href="#">Copa Libertadores</a></li>
+                        <li><a class="dropdown-item" href="#">UEFA Champions League</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item" id="auth-link">
+                    <!-- se actualizara de forma dinamica -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Registrarse</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cart.html">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span id="cart-count" class="badge badge-pill badge-primary">0</span>
+                        <span id="cart-total" class="badge badge-pill badge-dark">$0.00</span>
+                    </a>
+                </li>
+                <li class="nav-item" id="user-info">
+                    <!-- mostrara la informacion del usuario -->
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="container mt-4">
+        <h1 class="text-center">Liga Chilena</h1>
+    </header>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/colocoloLocal2024.webp" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Colo Colo Local 2024</h5>
+                        <p class="card-text">$53.990</p>
+                        <button class="btn btn-primary add-to-cart" data-id="1" data-name="Colo Colo Local 2024" data-price="53.990">Agregar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/ucLocal2024.webp" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Universidad Católica Local 2024</h5>
+                        <p class="card-text">$50.990</p>
+                        <button class="btn btn-primary add-to-cart" data-id="2" data-name="Universidad Catolica Local 2024" data-price="50.990">Agregar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/udechileLocal2024.webp" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Universidad de Chile Local 2024</h5>
+                        <p class="card-text">$51.990</p>
+                        <button class="btn btn-primary add-to-cart" data-id="3" data-name="Universidad de Chile Local 2024" data-price="51.990">Agregar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/audaxLocal2024.avif" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Audax Italiano Local 2024</h5>
+                        <p class="card-text">$42.990</p>
+                        <button class="btn btn-primary add-to-cart" data-id="4" data-name="Audax Italiano Local 2024" data-price="42.990">Agregar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/palestinoLocal2024.png" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Palestino Local 2024</h5>
+                        <p class="card-text">$45.990</p>
+                        <button class="btn btn-primary add-to-cart" data-id="5" data-name="Palestino Local 2024" data-price="45.990">Agregar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/unionespaniolaLocal2024.avif" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Unión Española Local 2024</h5>
+                        <p class="card-text">$61.990</p>
+                        <button class="btn btn-primary add-to-cart" data-id="6" data-name="Union Espanola Local 2024" data-price="61.990">Agregar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/iquiqueLocal2024.png" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Iquique Local 2024</h5>
+                        <p class="card-text">$45.990</p>
+                        <button class="btn btn-primary add-to-cart" data-id="7" data-name="Iquique Local 2024" data-price="45.990">Agregar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/cobreloaLocal2024.webp" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Cobreloa Local 2024</h5>
+                        <p class="card-text">$49.999</p>
+                        <button class="btn btn-primary add-to-cart" data-id="8" data-name="Cobreloa Local 2024" data-price="49.999">Agregar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/copiapoLocal2024.png" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Copiapó Local 2024</h5>
+                        <p class="card-text">$34.900</p>
+                        <button class="btn btn-primary add-to-cart" data-id="9" data-name="Copiapo Local 2024" data-price="34.900">Agregar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/huachipatoLocal2024.jpg" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Huachipato Local 2024</h5>
+                        <p class="card-text">$48.990</p>
+                        <button class="btn btn-primary add-to-cart" data-id="7" data-name="Huachipato Local 2024" data-price="48.990">Agregar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/ohigginsLocal2024.jpg" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Ohiggins Local 2024</h5>
+                        <p class="card-text">$45.000</p>
+                        <button class="btn btn-primary add-to-cart" data-id="8" data-name="Ohiggins Local 2024" data-price="45.000">Agregar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/evertonLocal2024.webp" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Everton Local 2024</h5>
+                        <p class="card-text">$51.990</p>
+                        <button class="btn btn-primary add-to-cart" data-id="9" data-name="Everton Local 2024" data-price="51.990">Agregar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/unionlacaleraLocal2024.jpg" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Unión la Calera Local 2024</h5>
+                        <p class="card-text">$40.990</p>
+                        <button class="btn btn-primary add-to-cart" data-id="7" data-name="Union la Calera Local 2024" data-price="40.990">Agregar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/coquimboLocal2024.avif" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Coquimbo Unido Local 2024</h5>
+                        <p class="card-text">$51.999</p>
+                        <button class="btn btn-primary add-to-cart" data-id="8" data-name="Coquimbo Unido Local 2024" data-price="51.999">Agregar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/nublenseLocal2024.jpg" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Nublense Local 2024</h5>
+                        <p class="card-text">$39.900</p>
+                        <button class="btn btn-primary add-to-cart" data-id="9" data-name="Nublense Local 2024" data-price="39.900">Agregar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/cobresalLocal2024.jpg" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Cobresal Local 2024</h5>
+                        <p class="card-text">$47.990</p>
+                        <button class="btn btn-primary add-to-cart" data-id="7" data-name="Cobresal Local 2024" data-price="47.990">Agregar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-4 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>Contacto</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">lacamisetastore@lacamisetastore.com</a></li>
+                        <li><a href="#">+56 9 12345678</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Sobre nosotros</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Nuestra Historia</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Síguenos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Visitanos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Teléfono: +56 2 4176523</a></li>
+                        <li><a href="#">Dirección: 123 Calle La Camiseta, Santiago</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

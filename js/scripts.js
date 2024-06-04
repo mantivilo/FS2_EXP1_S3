@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
             let users = JSON.parse(localStorage.getItem('users')) || [];
             users.push({ username: username.value, name: name.value, password: password.value, email: email.value, phone: phone.value, role: 'user' });
             localStorage.setItem('users', JSON.stringify(users));
-            //alert('Registration successful');
+            alert('Registro Exitoso');
             window.location.href = 'login.html';
         }
     });
@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (user) {
             localStorage.setItem('loggedInUser', JSON.stringify(user));
-            //alert('Ha iniciado sesión');
+            alert('Ha iniciado sesión');
             if (user.username === 'admin' && user.password === 'admin123') {
                 window.location.href = 'admin.html';
             } else {
