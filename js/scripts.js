@@ -57,7 +57,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // Validacion contraseña
-        // regex numeros chilenos
         const passwordRegex = /^(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{6,15}$/;
         if (!passwordRegex.test(password.value)) {
             password.classList.add('is-invalid');
@@ -87,6 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // Validacion Telefono
+         // regex numeros chilenos
         const phoneRegex = /^(\+?56)?(\s?)(0?9)(\s?)[98765432]\d{7}$/;
         if (!phoneRegex.test(phone.value)) {
             phone.classList.add('is-invalid');
